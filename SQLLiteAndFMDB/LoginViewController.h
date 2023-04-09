@@ -6,6 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SQLCipher/sqlite3.h>
+#import <FMDB/FMDB.h>
 
 @interface LoginViewController : UIViewController <UITextFieldDelegate>
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CA920BE29E28CD0005EF003 /* Mapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA920BD29E28CD0005EF003 /* Mapper.m */; };
 		2CF615C029E1A42C005B1D92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF615BF29E1A42C005B1D92 /* AppDelegate.m */; };
 		2CF615C329E1A42C005B1D92 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF615C229E1A42C005B1D92 /* SceneDelegate.m */; };
 		2CF615C629E1A42C005B1D92 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF615C529E1A42C005B1D92 /* LoginViewController.m */; };
@@ -21,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		1AD8126CE5F30C1055EFF3B6 /* Pods-SQLLiteAndFMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLLiteAndFMDB.release.xcconfig"; path = "Target Support Files/Pods-SQLLiteAndFMDB/Pods-SQLLiteAndFMDB.release.xcconfig"; sourceTree = "<group>"; };
+		2CA920BC29E28CD0005EF003 /* Mapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mapper.h; sourceTree = "<group>"; };
+		2CA920BD29E28CD0005EF003 /* Mapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mapper.m; sourceTree = "<group>"; };
 		2CF615BB29E1A42C005B1D92 /* SQLLiteAndFMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLLiteAndFMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF615BE29E1A42C005B1D92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2CF615BF29E1A42C005B1D92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,6 +83,8 @@
 				2CF615C229E1A42C005B1D92 /* SceneDelegate.m */,
 				2CF615DA29E1B3F0005B1D92 /* UserData.h */,
 				2CF615DB29E1B3F0005B1D92 /* UserData.m */,
+				2CA920BC29E28CD0005EF003 /* Mapper.h */,
+				2CA920BD29E28CD0005EF003 /* Mapper.m */,
 				2CF615C429E1A42C005B1D92 /* LoginViewController.h */,
 				2CF615C529E1A42C005B1D92 /* LoginViewController.m */,
 				2CF615D729E1B28B005B1D92 /* RegisterViewController.h */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA920BE29E28CD0005EF003 /* Mapper.m in Sources */,
 				2CF615D929E1B28B005B1D92 /* RegisterViewController.m in Sources */,
 				2CF615C629E1A42C005B1D92 /* LoginViewController.m in Sources */,
 				2CF615C029E1A42C005B1D92 /* AppDelegate.m in Sources */,

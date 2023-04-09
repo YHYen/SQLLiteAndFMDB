@@ -10,6 +10,8 @@
 
 @interface LoginViewController ()
 
+@property (strong, nonatomic) FMDatabase *database;
+
 @end
 
 @implementation LoginViewController
@@ -20,6 +22,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self createDatabaseAndTable];
+    [self insertData];
+    [self selectAllTable];
     
 }
 
@@ -100,6 +106,63 @@
     NSUInteger numberOfMatches = [regularExpression numberOfMatchesInString:inputString options:0 range:NSMakeRange(0, [inputString length])];
     
     return [inputString length] == numberOfMatches ? YES : NO;
+}
+
+
+// create database
+- (void) createDatabaseAndTable {
+    // 1. set file name
+    NSString *fileName = @"UD.db";
+    
+    // 2. set file path
+    NSString *filePath = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:fileName];
+    
+    // 3. get the database
+    _database = [FMDatabase databaseWithPath:filePath];
+    
+    // 4. check to see if database open success or not
+    if ([_database open]) {
+        // 5. if database open successful, create table
+        // 5.1. set sql query
+        NSString *sqlQuery = @"CREATE TABLE IF NOT EXISTS UserData(USER_ID integer PRIMARY KEY AUTOINCREMENT, Account text NOT NULL, Password text NOT NULL);";
+        // set boolean result and check the sql query execute success or not
+        BOOL result = [_database executeUpdate:sqlQuery];
+        
+        if (result) {
+            NSLog(@"Create table successfully!, FilePath is %@",filePath);
+        } else {
+            NSLog(@"Failed to create table");
+        }
+    }
+    
+}
+
+- (void) insertData {
+    NSString *account = @"account";
+    NSString *password = @"new1";
+    
+    NSString *sqlQuery = @"INSERT INTO UserData (Account, Password) VALUES (?,?);";
+    [_database executeUpdate:sqlQuery, account, password];
+    
+    NSLog(@"Insert successfullly");
+}
+
+
+- (void) selectAllTable {
+    FMResultSet *resultSet = [_database executeQuery:@"select * from UserData"];
+    
+    NSString *resultString = @"";
+    
+    while ([resultSet next]) {
+        int idNum = [resultSet intForColumn:@"USER_ID"];
+        NSString *name = [resultSet stringForColumn:@"Account"];
+        NSString *pwd = [resultSet stringForColumn:@"Password"];
+        NSString *rowString = [NSString stringWithFormat:@"USER_ID: %i, Account: %@, Password: %@", idNum, name, pwd];
+        resultString = [resultString stringByAppendingString:rowString];
+        NSLog(@"%@", rowString);
+    }
+    
+    NSLog(@"%@",resultString);
 }
 
 
