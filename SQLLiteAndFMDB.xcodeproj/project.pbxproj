@@ -9,26 +9,36 @@
 /* Begin PBXBuildFile section */
 		2CF615C029E1A42C005B1D92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF615BF29E1A42C005B1D92 /* AppDelegate.m */; };
 		2CF615C329E1A42C005B1D92 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF615C229E1A42C005B1D92 /* SceneDelegate.m */; };
-		2CF615C629E1A42C005B1D92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF615C529E1A42C005B1D92 /* ViewController.m */; };
+		2CF615C629E1A42C005B1D92 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF615C529E1A42C005B1D92 /* LoginViewController.m */; };
 		2CF615C929E1A42C005B1D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF615C729E1A42C005B1D92 /* Main.storyboard */; };
 		2CF615CB29E1A42C005B1D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF615CA29E1A42C005B1D92 /* Assets.xcassets */; };
 		2CF615CE29E1A42C005B1D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF615CC29E1A42C005B1D92 /* LaunchScreen.storyboard */; };
 		2CF615D129E1A42C005B1D92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF615D029E1A42C005B1D92 /* main.m */; };
+		2CF615D929E1B28B005B1D92 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF615D829E1B28B005B1D92 /* RegisterViewController.m */; };
+		2CF615DC29E1B3F0005B1D92 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF615DB29E1B3F0005B1D92 /* UserData.m */; };
+		B8B27CA4914844234DF185B7 /* Pods_SQLLiteAndFMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6B405D351ABD469B623DCD /* Pods_SQLLiteAndFMDB.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AD8126CE5F30C1055EFF3B6 /* Pods-SQLLiteAndFMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLLiteAndFMDB.release.xcconfig"; path = "Target Support Files/Pods-SQLLiteAndFMDB/Pods-SQLLiteAndFMDB.release.xcconfig"; sourceTree = "<group>"; };
 		2CF615BB29E1A42C005B1D92 /* SQLLiteAndFMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLLiteAndFMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF615BE29E1A42C005B1D92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2CF615BF29E1A42C005B1D92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2CF615C129E1A42C005B1D92 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		2CF615C229E1A42C005B1D92 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		2CF615C429E1A42C005B1D92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2CF615C529E1A42C005B1D92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CF615C429E1A42C005B1D92 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		2CF615C529E1A42C005B1D92 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		2CF615C829E1A42C005B1D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CF615CA29E1A42C005B1D92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CF615CD29E1A42C005B1D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CF615CF29E1A42C005B1D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CF615D029E1A42C005B1D92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CF615D729E1B28B005B1D92 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		2CF615D829E1B28B005B1D92 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		2CF615DA29E1B3F0005B1D92 /* UserData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserData.h; sourceTree = "<group>"; };
+		2CF615DB29E1B3F0005B1D92 /* UserData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
+		8B6B405D351ABD469B623DCD /* Pods_SQLLiteAndFMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLLiteAndFMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30EB30214390792352AF990 /* Pods-SQLLiteAndFMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLLiteAndFMDB.debug.xcconfig"; path = "Target Support Files/Pods-SQLLiteAndFMDB/Pods-SQLLiteAndFMDB.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B27CA4914844234DF185B7 /* Pods_SQLLiteAndFMDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +58,8 @@
 			children = (
 				2CF615BD29E1A42C005B1D92 /* SQLLiteAndFMDB */,
 				2CF615BC29E1A42C005B1D92 /* Products */,
+				F16475BE0F2BA6B92A9B30D1 /* Pods */,
+				6ACD66B3F14DF445E454A85D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,8 +78,12 @@
 				2CF615BF29E1A42C005B1D92 /* AppDelegate.m */,
 				2CF615C129E1A42C005B1D92 /* SceneDelegate.h */,
 				2CF615C229E1A42C005B1D92 /* SceneDelegate.m */,
-				2CF615C429E1A42C005B1D92 /* ViewController.h */,
-				2CF615C529E1A42C005B1D92 /* ViewController.m */,
+				2CF615DA29E1B3F0005B1D92 /* UserData.h */,
+				2CF615DB29E1B3F0005B1D92 /* UserData.m */,
+				2CF615C429E1A42C005B1D92 /* LoginViewController.h */,
+				2CF615C529E1A42C005B1D92 /* LoginViewController.m */,
+				2CF615D729E1B28B005B1D92 /* RegisterViewController.h */,
+				2CF615D829E1B28B005B1D92 /* RegisterViewController.m */,
 				2CF615C729E1A42C005B1D92 /* Main.storyboard */,
 				2CF615CA29E1A42C005B1D92 /* Assets.xcassets */,
 				2CF615CC29E1A42C005B1D92 /* LaunchScreen.storyboard */,
@@ -76,6 +93,23 @@
 			path = SQLLiteAndFMDB;
 			sourceTree = "<group>";
 		};
+		6ACD66B3F14DF445E454A85D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B6B405D351ABD469B623DCD /* Pods_SQLLiteAndFMDB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F16475BE0F2BA6B92A9B30D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F30EB30214390792352AF990 /* Pods-SQLLiteAndFMDB.debug.xcconfig */,
+				1AD8126CE5F30C1055EFF3B6 /* Pods-SQLLiteAndFMDB.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CF615D429E1A42C005B1D92 /* Build configuration list for PBXNativeTarget "SQLLiteAndFMDB" */;
 			buildPhases = (
+				D93A48F6399D3B29108B0F58 /* [CP] Check Pods Manifest.lock */,
 				2CF615B729E1A42C005B1D92 /* Sources */,
 				2CF615B829E1A42C005B1D92 /* Frameworks */,
 				2CF615B929E1A42C005B1D92 /* Resources */,
+				3DB63DAC8CD73DC45A91EB16 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,14 +177,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DB63DAC8CD73DC45A91EB16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLLiteAndFMDB/Pods-SQLLiteAndFMDB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLLiteAndFMDB/Pods-SQLLiteAndFMDB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SQLLiteAndFMDB/Pods-SQLLiteAndFMDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D93A48F6399D3B29108B0F58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLLiteAndFMDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2CF615B729E1A42C005B1D92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CF615C629E1A42C005B1D92 /* ViewController.m in Sources */,
+				2CF615D929E1B28B005B1D92 /* RegisterViewController.m in Sources */,
+				2CF615C629E1A42C005B1D92 /* LoginViewController.m in Sources */,
 				2CF615C029E1A42C005B1D92 /* AppDelegate.m in Sources */,
 				2CF615D129E1A42C005B1D92 /* main.m in Sources */,
+				2CF615DC29E1B3F0005B1D92 /* UserData.m in Sources */,
 				2CF615C329E1A42C005B1D92 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +367,7 @@
 		};
 		2CF615D529E1A42C005B1D92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30EB30214390792352AF990 /* Pods-SQLLiteAndFMDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -300,6 +381,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +396,7 @@
 		};
 		2CF615D629E1A42C005B1D92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AD8126CE5F30C1055EFF3B6 /* Pods-SQLLiteAndFMDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -327,6 +410,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
